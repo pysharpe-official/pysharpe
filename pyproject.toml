@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyQuant"
+version = "0.1.0"
+description = "Open research toolkit for portfolio analytics and visualization."
+authors = [{ name = "PyQuant Research", email = "contact@pyquant.org" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "XlsxWriter>=3.1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/pyquant-research/PyQuant"
+Documentation = "https://pyquant.org/docs"
+Source = "https://github.com/pyquant-research/PyQuant"
+Issues = "https://github.com/pyquant-research/PyQuant/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]

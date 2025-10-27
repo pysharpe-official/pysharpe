@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+PyQuant.egg-info/PKG-INFO
+PyQuant.egg-info/SOURCES.txt
+PyQuant.egg-info/dependency_links.txt
+PyQuant.egg-info/requires.txt
+PyQuant.egg-info/top_level.txt
+pyquant/__init__.py
+pyquant/monthly_weight_systems.py
+pyquant/quick_analysis.py

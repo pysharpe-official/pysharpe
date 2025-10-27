@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: PyQuant
+Version: 0.1.0
+Summary: Open research toolkit for portfolio analytics and visualization.
+Author-email: PyQuant Research <contact@pyquant.org>
+License: MIT
+Project-URL: Homepage, https://github.com/pyquant-research/PyQuant
+Project-URL: Documentation, https://pyquant.org/docs
+Project-URL: Source, https://github.com/pyquant-research/PyQuant
+Project-URL: Issues, https://github.com/pyquant-research/PyQuant/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: matplotlib>=3.7.0
+Requires-Dist: XlsxWriter>=3.1.0
+Dynamic: license-file
+
+# PyQuant 📈  
+**Open Research Portfolio Analysis Toolkit**
+
+PyQuant is an open research project providing tools for quantitative portfolio analysis, risk metrics, and visualization.  
+Built for researchers, traders, and data scientists working with systematic strategies.
+
+---
+
+## 🚀 Features
+- Fast, vectorized portfolio analytics (Sharpe, Sortino, CAGR, Drawdown, Calmar)
+- Monthly performance aggregation
+- Built-in support for benchmark comparison
+- Clean matplotlib visualizations
+- Simple export to Excel with **XlsxWriter**
+
+---
+
+## 🧩 Installation
+```bash
+pip install -e .
