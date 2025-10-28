@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ---
 
@@ -9,6 +10,11 @@ This is the most open and permissive license — perfect for research software.
 MIT License
 
 Copyright (c) 2025 PyQuant Research
+=======
+MIT License
+
+Copyright (c) 2025 pysharpe-official
+>>>>>>> 3f8f9ccdf5a0dcf8b61703fe21755a255c35a6f7
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
