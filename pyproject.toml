@@ -3,10 +3,10 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "PyQuant"
+name = "PySharpe"
 version = "0.1.0"
 description = "Open research toolkit for portfolio analytics and visualization."
-authors = [{ name = "PyQuant Research", email = "contact@pyquant.org" }]
+authors = [{ name = "PySharpe Research", email = "contact@pysharpe.org" }]
 license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.9"
@@ -18,10 +18,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/pyquant-research/PyQuant"
-Documentation = "https://pyquant.org/docs"
-Source = "https://github.com/pyquant-research/PyQuant"
-Issues = "https://github.com/pyquant-research/PyQuant/issues"
+Homepage = "https://github.com/pysharpe-research/PySharpe"
+Documentation = "https://pysharpe.org/docs"
+Source = "https://github.com/pysharpe-research/PySharpe"
+Issues = "https://github.com/pysharpe-research/PySharpe/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

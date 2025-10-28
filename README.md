@@ -1,6 +1,6 @@
-🧮 PyQuant — Simple, Pandas-Based Portfolio Analytics
+🧮 PySharpe — Simple, Pandas-Based Portfolio Analytics
 
-PyQuant is a lightweight, open-source portfolio performance analysis library for Python, built entirely on top of pandas and numpy. It enables quantitative investors, researchers, and analysts to easily compute key performance metrics, visualize aggregated returns, and export professional-grade Excel performance reports — all with minimal code.
+PySharpe is a lightweight, open-source portfolio performance analysis library for Python, built entirely on top of pandas and numpy. It enables quantitative investors, researchers, and analysts to easily compute key performance metrics, visualize aggregated returns, and export professional-grade Excel performance reports — all with minimal code.
 
 🚀 Features
 
@@ -32,20 +32,23 @@ Conditional formatting highlights outperformance vs. benchmark.
 Visualization-Ready: Built-in support for matplotlib and plotly.
 
 📦 Installation
-pip install pyquant
+
+pip install pysharpe
 
 
 (Coming soon — once the package is published on PyPI)
 
 For now, clone the repo:
 
-git clone https://github.com/<yourusername>/pyquant.git
-cd pyquant
+git clone https://github.com/pysharpe-official/pysharpe.git
+cd pysharpe
 pip install -r requirements.txt
 
+
 🧠 Quick Start
+
 import pandas as pd
-from pyquant import QPyQuantPanalysis
+from pysharpe import QPySharpePanalysis
 
 # Example DataFrame
 df = pd.DataFrame({
@@ -54,7 +57,7 @@ df = pd.DataFrame({
     'market_return': np.random.normal(0.008, 0.025, 48)
 })
 
-analyzer = QPyQuantPanalysis(df, rf_rate=0.02)
+analyzer = QPySharpePanalysis(df, rf_rate=0.02)
 
 # Compute metrics
 metrics = analyzer._analyze()
@@ -63,38 +66,29 @@ print(metrics)
 # Create full Excel dashboard
 analyzer.full_excel_report("portfolio_analysis.xlsx")
 
+
 📊 Example Output
 
 Sheet 1: Summary metrics (CAGR, Sharpe, Alpha, etc.)
-
 Sheet 2: Average monthly returns with bar chart
-
 Sheet 3: Yearly and monthly performance history
-
 Sheet 4: Growth-of-$100 chart (Strategy vs Benchmark)
 
 🧩 Dependencies
 
 pandas
-
 numpy
-
 matplotlib
-
 xlsxwriter
-
 plotly
 
 🧱 Project Goals
 
-PyQuant is designed to:
+PySharpe is designed to:
 
 Simplify quantitative performance analysis for everyday investors
-
 Offer a clean pandas-based API with transparent math
-
 Generate ready-to-share Excel performance reports
-
 Remain fully open-source, extensible, and community-driven
 
 🤝 Contributing
@@ -104,4 +98,4 @@ If you’d like to add features (like rolling stats, drawdown visualizations, or
 
 📜 License
 
-MIT License © 2025 pyquant
+MIT License © 2025 pysharpe

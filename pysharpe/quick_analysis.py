@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 
-class QPyQuantPanalysis:
+class pysharpe_basic:
     """
     Comprehensive Portfolio Performance Analyzer for Quant Strategies.
     ------------------------------------------------------------------
