@@ -57,7 +57,7 @@ df = pd.DataFrame({
     'market_return': np.random.normal(0.008, 0.025, 48)
 })
 
-analyzer = QPySharpePanalysis(df, rf_rate=0.02)
+analyzer = pysharpe_basic(df, rf_rate=0.02)
 
 # Compute metrics
 metrics = analyzer._analyze()
